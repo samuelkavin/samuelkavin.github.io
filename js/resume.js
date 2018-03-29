@@ -25,4 +25,6 @@
     target: '#sideNav'
   });
 
+  $('[data-toggle="popover"]').popover({ trigger: 'hover' });
+
 })(jQuery); // End of use strict
