@@ -32,6 +32,10 @@ h2 {
   font-size: 3.5rem;
 }
 
+.btn-close {
+  background: #e2e2e2;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -159,4 +163,68 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.resume-download {
+  padding: 10px;
+  background: #495057;
+  color: #fff!important;
+  border-radius: 22px;
+}
+
+.card-group {
+  margin-bottom: 2em;
+}
+
+.card {
+  position: relative;
+  width: 50%;
+  font-size: 40px;
+  cursor: pointer;
+  margin-right: 1em;
+  border: 1px solid #ccc;
+}
+
+.card-img-top {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover .card-img-top {
+  opacity: 0.3;
+}
+
+.card:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background: #82828214;
 }
